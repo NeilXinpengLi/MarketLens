@@ -1,0 +1,28 @@
+competitor_signals:
+  - CO2 supplier
+  - carbon dioxide distributor
+  - industrial gas
+  - beverage grade CO2
+  - food grade CO2
+  - bulk CO2
+  - CO2 cylinder
+  - welding grade
+product_signals:
+  - CO2 tank
+  - CO2 cylinder
+  - bulk liquid CO2
+  - dry ice
+  - N2O cartridge
+  - beverage carbonation
+local_business_signals:
+  - gas distributor
+  - local CO2 supplier
+  - homebrew supply
+  - restaurant gas supply
+alert_signals:
+  - shortage
+  - recall
+  - safety violation
+  - import ban
+  - FDA warning
+  - EPA fine

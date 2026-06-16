@@ -1,0 +1,15 @@
+base_score: 40
+signal_weights:
+  beverage grade CO2: 20
+  food grade CO2: 20
+  bulk CO2: 15
+  CO2 supplier: 10
+  industrial gas: 10
+  CO2 cylinder: 8
+  CO2 tank: 8
+  dry ice: 5
+  welding grade: 5
+thresholds:
+  high: 70
+  medium: 50
+  low: 0

@@ -1,0 +1,21 @@
+rules:
+  - name: missing_grade_signal
+    entity_types: [competitor, product]
+    condition: no_grade_signal
+    priority: high
+    message: "Entity has no beverage/food grade signal — verify compliance"
+  - name: alert_linked
+    entity_types: [competitor, local_business]
+    condition: has_alert
+    priority: high
+    message: "Entity has linked alert — review immediately"
+  - name: low_confidence
+    entity_types: [competitor, product, local_business]
+    condition: score_below_50
+    priority: medium
+    message: "Low confidence score — needs manual review"
+  - name: no_url
+    entity_types: [competitor, local_business]
+    condition: no_url
+    priority: low
+    message: "No URL found — source traceability missing"

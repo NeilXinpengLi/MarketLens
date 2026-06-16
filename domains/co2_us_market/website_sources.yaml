@@ -1,0 +1,10 @@
+sources:
+  - name: AirGas
+    url: https://www.airgas.com
+    type: competitor
+  - name: Linde
+    url: https://www.linde-gas.com
+    type: competitor
+  - name: Matheson
+    url: https://www.mathesongas.com
+    type: competitor
